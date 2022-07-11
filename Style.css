@@ -1,0 +1,185 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+}
+
+
+#top{
+    
+    width: 1440px;
+    height: 700px;
+    background-image: linear-gradient(360deg,black, transparent),url(images/donation6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-origin: border-box;
+}
+h1{
+    font-size: 310%;
+    font-weight: 240%;
+}
+h2{
+    margin: 100px;
+}
+.First-Section{
+    font-weight: bold;
+    font-size: 18;
+    text-align: center;
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;;
+   
+}
+.Donate-Button{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #FF5959;
+    padding: 10px 25px;
+    color: white;
+    font-weight: 550;
+    border-radius: 5%;  
+    
+}
+#Middle{
+    position:relative;
+    margin-top: 10%;
+    text-align: center;
+    font-weight: bold;
+    
+    color: rgb(0, 0, 0);;
+   
+}
+#size{
+    font-size: 75%;
+}
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    color:#707070;
+    font-weight: bold;
+  }
+.flex-container > div {
+    background-color: #FAFAFA;
+    width: 120px;
+    margin: 80px;
+    text-align: center;
+    line-height: 118px ;
+    font-size: 25px;
+    border-radius: 5%;
+    
+  }
+  #tk-color{
+    color:#FF5959;
+    background-color:#FFEEEE;
+   
+  }
+  #Other-Amount{
+    text-decoration: none;
+    margin-bottom: 5%;
+    color:#B3B3B3 ;
+  }
+  hr { 
+    color:#B3B3B3 ;
+    opacity: 0.5;
+    display: block;
+    margin-top: 1.0em;
+    margin-bottom: 3.0em;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-style: inset;
+    border-width: 1px;
+  }
+  .Mtwo-Section{
+    margin-top: 5.0em;
+    font-weight: bold;
+    font-size: 18;
+    text-align: center;
+  }
+  .Text-Color{
+    color:#707070;
+  }
+  .flex-container-two {
+    margin-top:10%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    align-items: left; 
+   
+  }
+  
+  .flex-container-two > div {
+    
+    background-color: #f1f1f1;
+    margin: 15px;
+    padding: 10px;
+    font-weight: 500;
+    
+}
+    
+#item-item-1{
+    background-image: url(icons/food.png);
+    background-position:1cm 2cm;
+    background-repeat: no-repeat;
+    background-color:#EDF5F6;
+    font-size: 16px;
+}
+#item-item-2{
+    background-image: url(icons/shelter.png);
+    background-position:1cm 2cm;
+    background-repeat: no-repeat;
+    background-color:#FFEEEE69;
+    font-size: 16px;
+}
+#item-item-3{
+    background-image: url(icons/Frame-1.png);
+    background-position:1cm 2cm;
+    background-repeat: no-repeat;
+    background-color: #FFF4D6;
+    font-size: 16px;
+    
+   
+}
+div > h2{
+   
+   position:2cm 2cm;
+   font-size: 20;
+   font-weight: 500;
+   
+}
+#Txt-Width,
+#two{
+    display: flex;
+} 
+.Down-Section{
+    display: flex;
+    margin-top: 10%;
+    display: flex;
+    padding-left: 5%;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    
+
+}
+.Half-Width{
+    font-weight: bolder;
+    width: 50%;
+}
+.Half-Width img{
+    object-fit: cover;
+    padding-left:125px ;  
+    width: 456px;
+    height:477px;
+ 
+}
+.Doanete-Two{
+    display: flex;
+    margin-top: 10%;
+    display: flex;
+    padding-left: 5%;
+    margin-bottom: 100px;
+    font-weight: bolder;
+}
+
