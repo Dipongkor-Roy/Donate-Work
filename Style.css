@@ -44,6 +44,7 @@ h2{
     
 }
 #Middle{
+    display: flex;
     position:relative;
     margin-top: 10%;
     text-align: center;
@@ -194,16 +195,8 @@ div > h2{
     font-weight: 500px;
 }
 
-.Box{
-    display: flex;
-    margin: auto;
-    height:200px;
-    width: 809px;
-    background-color:#FFF4D6;
-    padding: auto;
-    margin-top: 50px;
-}
 .Subscribe-Button{
+    margin-right: -50px;
     width: 110px;
     font-size: 16px;
     text-align: center;
@@ -215,11 +208,34 @@ div > h2{
     border-radius: 5%;     
 
 }
-.Box-Work{
-     align-items: center;
-     display:flex;
+#center{
+  margin: 6rem;
+  padding: 2rem 2rem;
+  text-align: center;
 }
+.child{
+    display: inline-block;
+    padding:1rem 1rem;
+    vertical-align: middle;
+}
+.At-Last{
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+  }
+ 
+
+.New-Thing{
+    align-items: center;
+    display: flex;
+    background-color: #FFF4D6; ;
+    height:200px;
+    width: 809px;
+    padding: 50px;
+    margin-top: 50px;
     
+}
+   
 #input{
     width: 110px;
     color:  #D9D9D9;
@@ -237,8 +253,9 @@ input {
     z-index: 1;
 }
 footer{
+    display:flexs;
     background-color: rgb(0, 0, 0);
-    width: 1407px;
+    width: 1424px;
     height: 177px; 
     margin-top: 100px;    
 }
