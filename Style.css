@@ -215,8 +215,12 @@ div > h2{
 }
 .child{
     display: inline-block;
-    padding:1rem 1rem;
+    padding:1px 1px;
     vertical-align: middle;
+}
+#padding{
+    padding: 11px 20px;
+    border-radius: 5px;
 }
 .At-Last{
     margin: auto;
@@ -224,7 +228,6 @@ div > h2{
     padding: 10px;
   }
  
-
 .New-Thing{
     align-items: center;
     display: flex;
